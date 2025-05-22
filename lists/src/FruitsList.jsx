@@ -10,7 +10,7 @@ const FruitsList = () => {
   return (
     <ul>
       {fruits.map(fruit => (
-        <li key={fruits.id}>{fruit.name}</li>
+        <li key={fruit.id}>{fruit.name}</li>
       ))}
     </ul>
   )
